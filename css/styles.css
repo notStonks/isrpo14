@@ -19,7 +19,7 @@ body {
 .header h1 {
 	margin: 5px;
 	text-align: center;
-	font-size: 36pt;
+	font-size: 34pt;
 	font-family: garamond;
 	color: #A11;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .blok-center {
-	font-size: 16pt;
+	font-size: 17pt;
 	margin-bottom: 20px;
 	padding: 10px;
 }
@@ -45,7 +45,7 @@ body {
 	font-size: 20px;
 	color: black;
 	background-color: #ad5c5c;
-	padding: 10px;
+	padding: 11px;
 	padding-left: 50px;
 	/*display:flex;
 	flex-direction: row;
@@ -67,7 +67,7 @@ body {
 }
 
 .menu li a {
-	font-size: 14.6pt;
+	font-size: 14.5pt;
 	font-family: garamond;
 	color: black;
 	text-decoration: none;
