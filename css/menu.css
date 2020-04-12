@@ -1,135 +1,141 @@
 /*------------------------------------*\
 	НАВИГАЦИЯ
 \*------------------------------------*/
-.main-menu ul{
-    padding: 0px;
-    margin: 0;
-    list-style: none;
+.main-menu ul {
+	padding: 0px;
+	margin: 0;
+	list-style: none;
 }
+
 .main-menu ul > li {
-    position: relative;
+	position: relative;
 	display: inline-block;
 	margin-right: 5px;
-	
 }
-.main-menu ul a{
+
+.main-menu ul a {
 	/*border-radius: 10px;*/
-    display:block;
-	margin-left:-1px;
-    padding: 10px 15px;
-    text-decoration: none;
-    background: rgba(0,0,0,0);
+	display: block;
+	margin-left: -1px;
+	padding: 10px 15px;
+	text-decoration: none;
+	background: rgba(0,0,0,0);
 }
+
 .main-menu ul a:hover {
 	background: rgb(219, 184, 103);
-    font-size: 16pt;
-    padding: 12px 16px;
-    transition: 0.2s;
+	font-size: 16pt;
+	padding: 12px 16px;
+	transition: 0.2s;
 }
+
 .main-menu ul .sub-menu {
 	/*display: none;*/
-    opacity: 0;
-    visibility: hidden;
-    transition: all .4s ease .15s;
-    position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .4s ease .15s;
+	position: absolute;
 	top: 40px;
-    left: 4px;
-    z-index: 10;
+	left: 4px;
+	z-index: 10;
+	margin: 0;
+	padding: 0;
+	padding-right: 5px;
+	list-style: none;
+}
 
-    margin:0;
-    padding:0;
-    padding-right: 5px;
-    list-style: none; 
-    
+.main-menu ul .sub-menu a {
+	margin-bottom: -20px;
+	color: white;
+	background: rgb(189, 119, 21);
+	border: 1px solid rgb(209, 192, 159);
 }
-.main-menu ul .sub-menu a{
-	margin-bottom:-20px;
-     color: white;
 
-    background: rgb(189, 119, 21);
-    border: 1px solid rgb(209, 192, 159);
+.main-menu ul .sub-menu a:hover {
+	color: rgb(46, 24, 4);
+	background: rgb(122, 91, 29);
 }
-.main-menu ul .sub-menu a:hover{
-    color:rgb(46, 24, 4);
-	background:rgb(122, 91, 29);
-}
+
 .main-menu ul > li:hover .sub-menu {
-    opacity: 1; /* Показываем подменю при ховере */
-    visibility: visible;
-	/*display: block;*/
+	opacity: 1;
+ /* Показываем подменю при ховере */
+	visibility: visible;
+	/*display: block;*/;
+}
 
+.main-menu ul .opened .sub-menu {
 }
-.main-menu ul .opened .sub-menu{
-	
-}
+
 .main-menu ul > .opened > a {
-    font-weight: bold;
-    color: white;
-    background: rgb(217, 149, 14);
-}
-.main-menu ul > .opened > a:hover{
-    font-size: 16pt;
-    padding: 10px 16px;
-}
-.main-menu ul .sub-menu .subsub-menu{
-display: none;
-}
-.main-menu ul .sub-menu > li:hover .subsub-menu{
-display: block;
+	font-weight: bold;
+	color: white;
+	background: rgb(217, 149, 14);
 }
 
-.sbm a{
-    width:75px;
+.main-menu ul > .opened > a:hover {
+	font-size: 16pt;
+	padding: 10px 16px;
+}
+
+.main-menu ul .sub-menu .subsub-menu {
+	display: none;
+}
+
+.main-menu ul .sub-menu > li:hover .subsub-menu {
+	display: block;
+}
+
+.sbm a {
+	width: 75px;
 }
 
 /*------------------------------------*\
     КОНЕЦ НАВИГАЦИИ
 \*------------------------------------*/
-@media all and (max-width: 1291px){
-    .main-menu a {
-    white-space: pre-wrap;
-    
+@media all and (max-width: 1291px) {
+	.main-menu a {
+		white-space: pre-wrap;
+	}
 }
-}
+
 @media all and (max-width: 790px) {
-
-.main-menu ul a:hover {
-
-    font-size: 14pt;
-    padding: 10px 14px;
-    transition: 0.2s;
+	.main-menu ul a:hover {
+		font-size: 14pt;
+		padding: 10px 14px;
+		transition: 0.2s;
+	}
 }
-}
+
 @media all and (max-width: 480px) {
-.main-menu ul > li {
-    position: relative;
-    display: block;
-    margin-right: 0px;
-    
-}
-.main-menu ul a{
-    margin:0; 
-    display:block;
-    margin-left:-1px;
-    padding: 6px 6px;
-    text-decoration: none;
-    color: white;
-    background: rgba(0,0,0,0);
+	.main-menu ul > li {
+		position: relative;
+		display: block;
+		margin-right: 0px;
+	}
 
-}
-.main-menu ul a:hover {
-    font-size: 14pt;
-    padding: 6px 6px;
-}
-.main-menu ul .sub-menu {
-    position: absolute;
-    top: 20px;
-    left:-10px;
-}
+	.main-menu ul a {
+		margin: 0;
+		display: block;
+		margin-left: -1px;
+		padding: 6px 6px;
+		text-decoration: none;
+		color: white;
+		background: rgba(0,0,0,0);
+	}
 
-.main-menu ul > .opened > a:hover{
-    font-size: 14pt;
-    padding: 6px 6px;
-}
+	.main-menu ul a:hover {
+		font-size: 14pt;
+		padding: 6px 6px;
+	}
 
+	.main-menu ul .sub-menu {
+		position: absolute;
+		top: 20px;
+		left: -10px;
+	}
+
+	.main-menu ul > .opened > a:hover {
+		font-size: 14pt;
+		padding: 6px 6px;
+	}
 }
