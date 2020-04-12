@@ -1,73 +1,76 @@
-*{
-margin:0;
-padding:0;
+* {
+	margin: 0;
+	padding: 0;
 }
-body
-{
-background-color: rgb(132, 132, 132);/*url(/www/pictures/fon.jpg) no-repeat center top*/
-background-attachment: fixed;
+
+body {
+	background-color: rgb(132, 132, 132);
+/*url(/www/pictures/fon.jpg) no-repeat center top*/
+	background-attachment: fixed;
 }
-.site-blok
-{
-width: 70%; /* ширина сайта*/
-margin: 0 auto; /* выравниваем сайт по сентру*/
+
+.site-blok {
+	width: 70%;
+ /* ширина сайта*/
+	margin: 0 auto;
+ /* выравниваем сайт по сентру*/;
 }
-.header h1
-{
-margin:5px;
-text-align:center;
-font-size:36pt;
-font-family: garamond;
-color:#A11;
-}
-.header h2{
-	
+
+.header h1 {
+	margin: 5px;
 	text-align: center;
+	font-size: 36pt;
 	font-family: garamond;
+	color: #A11;
 }
-.header h3{
+
+.header h2 {
 	text-align: center;
 	font-family: garamond;
 }
 
-.blok-center{
+.header h3 {
+	text-align: center;
+	font-family: garamond;
+}
+
+.blok-center {
 	font-size: 16pt;
 	margin-bottom: 20px;
-	padding:10px;
+	padding: 10px;
 }
-.blok-content{
-    font-family: Trebuchet MS;
+
+.blok-content {
+	font-family: Trebuchet MS;
 	font-size: 20px;
 	color: black;
-background-color: #ad5c5c;
-padding: 10px;
-padding-left: 50px; 
-
-
+	background-color: #ad5c5c;
+	padding: 10px;
+	padding-left: 50px;
 	/*display:flex;
 	flex-direction: row;
 	justify-content:space-around;
-	flex-wrap: wrap;*/
+	flex-wrap: wrap;*/;
 }
-.menu
-{
-margin-top: 10px;
+
+.menu {
+	margin-top: 10px;
 	border-top: 3px solid #424b82;
-height:70px; 
-background:#6AB0EE;
+	height: 70px;
+	background: #6AB0EE;
 }
-.menu li
-{
-	
-margin:10px;
-float:left; /* граница сайта */
+
+.menu li {
+	margin: 10px;
+	float: left;
+ /* граница сайта */;
 }
-.menu li a
-{
-font-size:14.6pt;
-font-family: garamond;
-color: black;
-text-decoration: none;
+
+.menu li a {
+	font-size: 14.6pt;
+	font-family: garamond;
+	color: black;
+	text-decoration: none;
 }
 /*.fon:hover{
 	filter: alpha(Opacity=90); /* Полупрозрачность для IE */
@@ -86,82 +89,102 @@ text-decoration: none;
 	color: darkslategray;
 }
 */
-.img1{
+.img1 {
 	width: 30%;
 	float: right;
 	margin-top: 20px;
-	padding-left: 50px; 
+	padding-left: 50px;
 }
-.img2{
+
+.img2 {
 	width: 30%;
 	float: left;
 }
-.img3{
+
+.img3 {
 	width: 35%;
-	padding-right: 20px; 
+	padding-right: 20px;
 }
-.img4{
+
+.img4 {
 	width: 40%;
-	padding-right: 20px; 
+	padding-right: 20px;
 }
-.j{
+
+.j {
 	margin-top: 300px;
 }
-.pg{
 
+.pg {
 	width: 50%;
 }
-.troc{
+
+.troc {
 }
-h2{
-	margin:5px;
-text-align:center;
-font-size:26pt;
-font-family: garamond;
-color:#300;
+
+h2 {
+	margin: 5px;
+	text-align: center;
+	font-size: 26pt;
+	font-family: garamond;
+	color: #300;
 }
-.quote{
+
+.quote {
 	margin-top: 10px;
-	font-size:16pt;
+	font-size: 16pt;
 	background-color: #D6D6D6FF;
 	font-style: italic;
 	border-radius: 10px;
-	margin-right: 70px; 
+	margin-right: 70px;
 	padding: 10px;
 }
+
 table {
-    background: #dc0; /* Цвет фона таблицы */
-    border: 5px double #000; /* Рамка вокруг таблицы */
-   }
-   td, th {
-    padding: 5px; /* Поля вокруг текста */
-    border: 1px solid #fff; /* Рамка вокруг ячеек */
-   }
-.footer
-{
-display: flex;
-justify-content: space-between;
-margin-top: 20px;
-padding: 10px; /* Поля вокруг текста */ 
-background-color: #E73917; /* Цвет фона */
+	background: #dc0;
+ /* Цвет фона таблицы */
+	border: 5px double #000;
+ /* Рамка вокруг таблицы */;
 }
-.footer a{
-padding: 10px;
-font:20px  "Times New Roman", Times, serif;
-color: #F0FFFF; /* Цвет текста */
-/*background-color: black;*/
-padding-left: 50px;
-text-decoration: none;
+
+td, th {
+	padding: 5px;
+ /* Поля вокруг текста */
+	border: 1px solid #fff;
+ /* Рамка вокруг ячеек */;
 }
-.contact{
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
 	padding: 10px;
-font-size: 20px;
+ /* Поля вокруг текста */
+	background-color: #E73917;
+ /* Цвет фона */;
+}
+
+.footer a {
+	padding: 10px;
+	font: 20px  "Times New Roman", Times, serif;
+	color: #F0FFFF;
+ /* Цвет текста */
+/*background-color: black;*/
+	padding-left: 50px;
+	text-decoration: none;
+}
+
+.contact {
+	padding: 10px;
+	font-size: 20px;
 	margin-left: 20px;
 }
-.contact a{
+
+.contact a {
 	color: black;
-		text-decoration: none;
+	text-decoration: none;
 }
+
 .contact  .social-bar-wrap  i {
 	color: rgb(128, 0, 0);
 }
