@@ -65,7 +65,7 @@
 .main-menu ul > .opened > a {
     font-weight: bold;
     color: white;
-    background: rgb(122, 91, 29);
+    background: rgb(217, 149, 14);
 }
 .main-menu ul > .opened > a:hover{
     font-size: 16pt;
